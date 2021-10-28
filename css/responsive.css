@@ -1,0 +1,25 @@
+@media (max-width: 450px) {
+  header h1 {
+    display: none;
+  }
+  .header-content nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .link {
+    width: calc(100% / 3);
+  }
+
+  .page-title-description {
+    padding: 20px 20px 40px;
+  }
+
+  .box-vaccine,
+  .box-description {
+    width: 100%;
+    max-width: 100%;
+    margin: 10px 15px 30px;
+  }
+}
